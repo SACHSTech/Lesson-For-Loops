@@ -1,8 +1,3 @@
-/**
- * Entry point for ICS3U assignments with console output.
- *
- * @author Your Name
- */
 public class Main extends ConsoleProgram {
     @Override
     public void run() {
