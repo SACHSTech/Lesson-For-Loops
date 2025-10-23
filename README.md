@@ -71,7 +71,7 @@ i = 4
 ```
 <br>
 
-## What is a `For` Loop?
+## Examples
 There are many uses for loops, especially when combined with variables and nested conditionals. Here are some examples.
 
 ### Example 1: Counting Up
