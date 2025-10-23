@@ -61,7 +61,7 @@ for (int i = 0; i < 5; i++) {
 }
 ```
 
-**Output:**
+**Output:**  
 ```
 i = 0
 i = 1
@@ -82,7 +82,7 @@ for (int num = 1; num <= 10; num++) {
 }
 ```
 
-**Output:**
+**Output:**  
 ```
 1
 2
@@ -110,7 +110,7 @@ for (int num = 10; num >= 1; num--) {
 System.out.println("Blastoff!");
 ```
 
-**Output:**
+**Output:**  
 ```
 10
 9
@@ -140,7 +140,7 @@ for (int i = 1; i <= 5; i++) {
 }
 ```
 
-**Output:**
+**Output:**  
 ```
 Square of 1 is 1
 Square of 2 is 4
@@ -163,7 +163,7 @@ for (int x = 50; x <= 250; x += 50) {
 }
 ```
 
-**Output:**
+**Output:**  
 ![image](.media/02.png)
 
 Each circle is spaced 50 pixels apart horizontally.
@@ -190,7 +190,7 @@ public class SumInputs extends ConsoleProgram {
 }
 ```
 
-**Sample Output:**
+**Sample Output:**  
 ```
 How many numbers? 3
 Enter a number: 4
@@ -240,7 +240,7 @@ for (int i = 1; i <= 10; i++) {
 }
 ```
 
-**Output:**
+**Output:**  
 ```
 1 is odd
 2 is even
