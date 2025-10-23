@@ -116,7 +116,7 @@ Square of 4 is 16
 Square of 5 is 25
 ```
 
-### Example 4: Use in Drawing
+### Example 4: Drawing with Loops
 
 Repetition isn’t just for math — it can also be used for graphics. Using the Processing library, we can draw 5 circles across the screen, evenly spaced:
 
