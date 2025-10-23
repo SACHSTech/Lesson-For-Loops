@@ -2,7 +2,7 @@
 
 **Previous Lesson:** [If Statements](https://github.com/SACHSTech/Lesson-If-Statements)
 
-## 1. Why Loops?
+## Why Loops?
 
 Programs often need to **repeat** actions. For example, printing a sequence, calculating totals, checking multiple inputs — all involve doing the same thing multiple times.
 
@@ -16,7 +16,9 @@ System.out.println("Hello!");
 
 If you wanted to print “Hello!” 100 times, this wouldn’t be realistic. That’s where **loops** come in.
 
-## 2. What is a `For` Loop?
+<br>
+
+## What is a `For` Loop?
 
 A **`for` loop** repeats a block of code a *specific* number of times:
 
@@ -43,7 +45,9 @@ This loop runs **3 times**, because:
 
 ![flowchart](.media/01.png)
 
-## 3. `For` Loop Structure
+<br>
+
+## `For` Loop Structure
 
 | Part | Description | Example |
 |------|--------------|----------|
@@ -65,6 +69,10 @@ i = 2
 i = 3
 i = 4
 ```
+<br>
+
+## What is a `For` Loop?
+There are many uses for loops, especially when combined with variables and nested conditionals. Here are some examples.
 
 ### Example 1: Counting Up
 
