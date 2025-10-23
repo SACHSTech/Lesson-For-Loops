@@ -72,7 +72,7 @@ i = 4
 <br>
 
 ## Examples
-There are many uses for loops, especially when combined with variables and nested conditionals. Here are some examples.
+There are many uses for `for` loops — from counting, to pattern generation, to graphics and user interaction. Here are a few examples.
 
 ### Example 1: Counting Up
 
@@ -82,8 +82,24 @@ for (int num = 1; num <= 10; num++) {
 }
 ```
 
-Prints 1 to 10. But what would happen if we changed the condition to `num < 10`?
+**Output:**
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
 
+This prints numbers **1 to 10**, inclusive.  
+What happens if you wrote `num < 10` for the condition?
+
+<br>
 
 ### Example 2: Counting Down
 
@@ -91,15 +107,32 @@ Prints 1 to 10. But what would happen if we changed the condition to `num < 10`?
 for (int num = 10; num >= 1; num--) {
     System.out.println(num);
 }
-
 System.out.println("Blastoff!");
 ```
 
-Counts down before printing `Blastoff!`. Note how the code must complete the loop execution before moving on with the program.
+**Output:**
+```
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+Blastoff!
+```
+
+The loop counts down before printing `Blastoff!`.  
+Notice that **the final statement runs only after** the loop is finished.
+
+<br>
 
 ### Example 3: Using Variables in Loops
 
-You can use the counter inside the loop to drive math or text.
+You can use the counter inside the loop to calculate or build text dynamically.
 
 ```java
 for (int i = 1; i <= 5; i++) {
@@ -116,9 +149,13 @@ Square of 4 is 16
 Square of 5 is 25
 ```
 
-### Example 4: Drawing with Loops
+<br>
 
-Repetition isn’t just for math — it can also be used for graphics. Using the Processing library, we can draw 5 circles across the screen, evenly spaced:
+
+### Example 4: Drawing with Loops (Processing)
+
+Repetition isn’t just for math — it can be used to create visual patterns.  
+The example below draws five circles across the screen, evenly spaced:
 
 ```java
 for (int x = 50; x <= 250; x += 50) {
@@ -126,14 +163,16 @@ for (int x = 50; x <= 250; x += 50) {
 }
 ```
 
-This results in:
+**Output:**
+![image](.media/02.png)
 
-![graphics](.media/02.png)
+Each circle is spaced 50 pixels apart horizontally.
 
+<br>
 
 ### Example 5: Summing User Input
 
-Now let’s include interaction:
+Loops can also process repeated user input:
 
 ```java
 public class SumInputs extends ConsoleProgram {
@@ -151,11 +190,22 @@ public class SumInputs extends ConsoleProgram {
 }
 ```
 
-How would you modify this to output the average (arithmetic mean) in addition to the total?
+**Sample Output:**
+```
+How many numbers? 3
+Enter a number: 4
+Enter a number: 7
+Enter a number: 9
+Total = 20
+```
+
+What would you need to do to get this program to calculate the average (mean)?
+
+<br>
 
 ### Example 6: Multiplication Table
 
-Loops are useful if you recognize patterns and simplify them.
+Loops are perfect for generating repetitive structures like tables:
 
 ```java
 int num = readInt("Enter a number: ");
@@ -164,10 +214,21 @@ for (int i = 1; i <= 10; i++) {
 }
 ```
 
+**Sample Output:**
+```
+Enter a number: 7
+7 × 1 = 7
+7 × 2 = 14
+7 × 3 = 21
+...
+7 × 10 = 70
+```
+
+<br>
 
 ### Example 7: Loop with Logic
 
-You can also include conditional statements inside loops.
+You can combine loops and conditionals to apply logic to each iteration:
 
 ```java
 for (int i = 1; i <= 10; i++) {
@@ -179,6 +240,21 @@ for (int i = 1; i <= 10; i++) {
 }
 ```
 
+**Output:**
+```
+1 is odd
+2 is even
+3 is odd
+4 is even
+5 is odd
+6 is even
+7 is odd
+8 is even
+9 is odd
+10 is even
+```
+
+<br>
 
 ## Common Mistakes
 
